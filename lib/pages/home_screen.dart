@@ -144,9 +144,9 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Widget _buildGridView() {
     List<Map<String, dynamic>> gridItems = [
-      {"icon": Icons.star, "text": "Gempa dahsyat di Indonesia"},
-      {"icon": Icons.favorite, "text": "Korban bencana gempa"},
-      {"icon": Icons.music_note, "text": "Gempa dan kerugian harta"},
+      {"icon": Icons.movie, "text": "Gempa dahsyat di Indonesia"},
+      {"icon": Icons.movie, "text": "Korban bencana gempa"},
+      {"icon": Icons.movie, "text": "Gempa dan kerugian harta"},
       {"icon": Icons.movie, "text": "Gempa terbesar di Indonesia"},
     ];
 

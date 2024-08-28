@@ -163,13 +163,12 @@ class _ReadDataState extends State<ReadData> {
 
   Widget _buildUserData() {
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         if (firstname != null)
-          _buildUserDataItem(label: "First Name", value: firstname!),
+          _buildUserDataItem(label: "News", value: firstname!),
         if (lastname != null)
-          _buildUserDataItem(label: "Last Name", value: lastname!),
-        if (age != null) _buildUserDataItem(label: "Age", value: age!),
+          _buildUserDataItem(label: "Description", value: lastname!),
+        if (age != null) _buildUserDataItem(label: "Date", value: age!),
       ],
     );
   }
